@@ -16,7 +16,7 @@ def round_half_up(x):
       return math.floor(x)
            
 # load data from csv 
-with open('../insight_testsuite/tests/test_1/input/Border_Crossing_Entry_Data.csv','r') as input:
+with open('../input/Border_Crossing_Entry_Data.csv','r') as input:
         reader = csv.DictReader(input)
         data = list(reader)
         header = reader.fieldnames
@@ -94,7 +94,7 @@ with open('../insight_testsuite/tests/test_1/input/Border_Crossing_Entry_Data.cs
        # print(final_list)
 
         # write into csv
-        with open ('../insight_testsuite/tests/test_1/output/report.csv','w') as output:
+        with open ('../output/report.csv','w') as output:
             fieldnames = ['Border','Date','Measure','Value','Average']
             writer = csv.DictWriter(output, fieldnames = fieldnames)
             writer.writeheader()
