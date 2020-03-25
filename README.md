@@ -1,6 +1,7 @@
-I used Python for this project. 
+This was a data challenge project.
 
-As numpy and pandas packages are not allowed, I used several python built-in modules that does not require installation.
+I used Python built-in modules instead of numpy and pandas packages to do data analysis. 
+
 
 Here are the steps:
 
